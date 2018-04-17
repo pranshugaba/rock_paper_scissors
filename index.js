@@ -3,6 +3,7 @@ function computerPlay () {
     return computerMove
 }
 
+
 function playerPlay() {
     var playerMove = prompt("Play your turn");
     if (playerMove.toLowerCase() === 'rock') {

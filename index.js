@@ -1,3 +1,4 @@
+//chooses a random move for the computer
 function computerPlay () {
     computerMove = Math.floor(Math.random() * 3);
     return computerMove
